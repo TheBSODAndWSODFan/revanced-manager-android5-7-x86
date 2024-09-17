@@ -1,4 +1,8 @@
-# ReVanced Manager for Android 5.x and 6.0-7.1
+# ReVanced Manager for Android 5.x and 6.0-7.1 (Emulator Version) (ONLY COMPATIBLE WITH x86 AND x86_64!)
+This fork is suitable for older/lightweight Android Emulators (Bluestacks/LDPlayer/Nox Nougat) and older Android-x86 builds (Such as: Android-x86 (7/8/9), PrimeOS, PhoenixOS, and POSROG) *(Note: Some list may not be tested yet by me and video playback may not work caused by some bugs by the Emulator/Android-x86.) Also, may works in newer Android-x86 (Such as BlissOS) but need to disable (check-android-version) patch.
+
+## Screenshots: (Coming Soon)
+
 This is a ReVanced Manager fork specific to kitadai31 & d4n3436's patches.
 
 The following ReVanced Patches are supported:
@@ -16,7 +20,7 @@ Go to [Releases](https://github.com/kitadai31/revanced-manager-android5-7/releas
 1. Android 5.0 or higher
 2. ~~Does not work on some ARMv7 (32bit) devices.~~ FIXED on v1.17.5.  
 Both ARMv7 and ARMv8 are supported now!
-3. Android emulators (x86_64 devices) are not supported. Use patching methods for PC.
+3. ~~Android emulators (x86_64 devices) are not supported.~~ (This fork only support x86 and x86_64 and the ReVanced only can be run in Emulator). For building ReVanced for Android Phone/Tablet, Use patching methods for PC.
 4. [GmsCore](https://github.com/ReVanced/GmsCore/releases/latest) is required for YouTube and YouTube Music (Only for non-root)
 
 # How to patch
