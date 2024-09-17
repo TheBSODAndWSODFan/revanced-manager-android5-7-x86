@@ -1,7 +1,7 @@
 # ReVanced Manager for Android 5.x and 6.0-7.1 (Emulator Version) (ONLY COMPATIBLE WITH x86 AND x86_64!)
 This fork is suitable for older/lightweight Android Emulators (Bluestacks/LDPlayer/Nox Nougat) and older Android-x86 builds (Such as: Android-x86 (7/8/9), PrimeOS, PhoenixOS, and POSROG) *(Note: Some list may not be tested yet by me and video playback may not work caused by some bugs by the Emulator/Android-x86.) Also, may works in newer Android-x86 (Such as BlissOS) but need to disable (check-android-version) patch.
 
-## Screenshots: (Coming Soon)
+# Screenshots: (Coming Soon)
 
 This is a ReVanced Manager fork specific to kitadai31 & d4n3436's patches.
 
