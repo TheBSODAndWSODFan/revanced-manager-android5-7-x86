@@ -392,16 +392,18 @@ class MainActivity : FlutterActivity() {
                     // ripLibs
                     when (ripLibs) {
                         1 -> {
-                            // leave only arm64-v8a
+                            // leave only x86_64
                             toBeRemoved.add("lib/arme")
-                            toBeRemoved.add("lib/x")
-                            updateProgress(0.8, "Building...", "Removing libs [armeabi-v7a, x86, x86_64]")
+                            toBeRemoved.add("lib/arm6")
+                            toBeRemoved.add("lib/x86/")
+                            updateProgress(0.8, "Building...", "Removing libs [armeabi-v7a, arm64-v8a, x86]")
                         }
                         2 -> {
-                            // leave only armeabi-v7a
+                            // leave only x86
+                            toBeRemoved.add("lib/arme")
                             toBeRemoved.add("lib/arm6")
-                            toBeRemoved.add("lib/x")
-                            updateProgress(0.8, "Building...", "Removing libs [arm64-v8a, x86, x86_64]")
+                            toBeRemoved.add("lib/x86_64")
+                            updateProgress(0.8, "Building...", "Removing libs [armeabi-v7a, arm64-v8a, x86_64]")
                         }
                     }
 
