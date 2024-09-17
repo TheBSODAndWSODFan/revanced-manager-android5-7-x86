@@ -38,7 +38,7 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        applicationId "app.kitadai31.manager.flutter"
+        applicationId "app.kitadai31.manager.flutter.emulator"
         minSdk 21
         targetSdk 34
         versionCode flutterVersionCode.toInteger()
@@ -47,23 +47,23 @@ android {
     buildTypes {
         release {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            resValue "string", "app_name", "ReVanced Manager A5-7"
+            resValue "string", "app_name", "ReVanced Manager A5-7 For Emulator"
             signingConfig signingConfigs.debug
             ndk {
-                abiFilters 'arm64-v8a', 'armeabi-v7a'
+                abiFilters 'x86_64', 'x86'
             }
         }
         debug {
             shrinkResources false
             minifyEnabled false
-            resValue "string", "app_name", "ReVanced Manager Debug A5-7"
+            resValue "string", "app_name", "ReVanced Manager Debug A5-7 For Emulator"
             applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
         }
         profile {
             shrinkResources false
             minifyEnabled false
-            resValue "string", "app_name", "ReVanced Manager Profile"
+            resValue "string", "app_name", "ReVanced Manager Profile For Emulator"
             applicationIdSuffix ".profile"
             signingConfig signingConfigs.debug
         }
