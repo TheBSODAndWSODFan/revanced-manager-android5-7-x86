@@ -33,8 +33,8 @@ class SRipLibs extends BaseViewModel {
                     },
                   ),
                   RadioListTile(
-                    title: const Text('Remove armeabi-v7a, x86, x86_64'),
-                    subtitle: const Text('Optimized for arm64-v8a devices'),
+                    title: const Text('Remove armeabi-v7a, arm64-v8a, x86'),
+                    subtitle: const Text('Optimized for x86_64 devices'),
                     value: 1,
                     groupValue: groupValue,
                     onChanged: (int? value) {
@@ -44,8 +44,8 @@ class SRipLibs extends BaseViewModel {
                     },
                   ),
                   RadioListTile(
-                    title: const Text('Remove arm64-v8a, x86, x86_64'),
-                    subtitle: const Text('Optimized for armeabi-v7a devices'),
+                    title: const Text('Remove armeabi-v7a, arm64_v8a, x86_64'),
+                    subtitle: const Text('Optimized for x86 devices'),
                     value: 2,
                     groupValue: groupValue,
                     onChanged: (int? value) {
